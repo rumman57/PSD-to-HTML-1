@@ -1,0 +1,262 @@
+					 /*----------------------------------------------
+											 // Initial Code 
+						 --------------------------------------------*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{ 
+	margin:0; 
+	padding:0; 
+	border:0; 
+	outline:0; 
+	font-size:100%; 
+	vertical-align:baseline; 
+	background:transparent; 
+}
+ol,ul{ 
+	list-style:none; 
+}
+blockquote,q{ 
+	quotes:none; 
+}
+blockquote:before,blockquote:after,q:before,q:after{ 
+	content:''; 
+	content:none; 
+}
+:focus{ 
+	outline:0; 
+}
+ins{ 
+	text-decoration:none; 
+}
+del{ 
+	text-decoration:line-through; 
+}
+table{ 
+	border-collapse:collapse; 
+	border-spacing:0; 
+}
+
+
+                        /*----------------------------------------------
+											 // Common  Code 
+						 --------------------------------------------*/
+.skiplink{ 
+	display:none; 
+}
+label{ 
+	cursor:pointer; 
+}
+a,a:visited{ 
+	color:#00f; text-decoration:none; 
+}
+a:focus,a:hover{ 
+	text-decoration:underline; 
+}
+.fix{
+	overflow:hidden;
+}
+.floatleft{
+	float: left;
+}
+.floatright{
+	float:right;
+}
+	                   /*----------------------------------------------
+						      // Body & Main_wrapper Code 
+						 --------------------------------------------*/ 
+
+.body_wrapper{
+	background:url(images/wholebodybg.png) 0 0 scroll #000 repeat-x; 
+	font:62.5%/1 Arial, Helvetica, sans-serif;  
+	text-align:center;	
+}						 
+.main_wrapper{
+	
+}
+
+						/*----------------------------------------------
+						      // Header & Menu Code 
+						 --------------------------------------------*/  
+.header_part{
+	background:url(images/headerbg.png) 0 0 scroll #000  repeat-x;
+}
+.headermainbg{
+	width:960px;
+	margin:0 auto;
+}						 
+.logo{margin-top:3px;margin-left:4px;}						 
+.logo h1{
+	font-size:45px;
+	font-weight:bold;
+	margin-top:6px;
+	color: #4F63A7;
+}
+.logo p{
+	font-size:14px;
+	margin-top:3px;
+	color: #6B80B7;
+	margin-bottom:18px;
+}						 
+/*.menu{margin-top:35px;height:30px;font-weight:normal;}		
+.menu ul{text-align:right;display:inline;margin-left:210px; }		
+.menu ul li{display:inline-block;}		
+.menu ul li a{padding:4px 10px;font-size:17px;text-decoration:none;color: #2F57A1;}		
+.menu ul li a:hover{}
+.menu{margin-top:35px;}		
+.menu ul{list-style:none;margin:0;padding:0; }		
+.menu ul li{float:left;}		
+.menu ul li a{display:block;width:70px;font-weight:normal;color:#2F57A1;text-align:right;padding:4px 10px; 
+text-decoration:none;
+  font-size:17px;
+}		
+.menu ul li a:hover{}	*/
+.menu{
+	margin-top:22px;
+	
+	
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333;*/
+	margin-left:100px;
+	 
+}
+
+.menu li {
+    float:left;
+	
+	
+}
+
+.menu li a {
+	
+    display: inline-block;
+    color: #2F57A1;
+    text-align:right;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:17px;
+	
+}
+
+	
+
+				       /*----------------------------------------------
+						      // Slider Code 
+						 --------------------------------------------*/ 
+.slider{}	
+                       /*----------------------------------------------
+						      //Content Code 
+						 --------------------------------------------*/ 
+					 
+.Content_part{}
+.mainconbg{
+	width:956px;
+	margin: 0 auto;
+	
+	
+}						 
+.top_content{background:url(images/contenttopbg.png) 0 0 scroll repeat-x;margin-bottom:10px;border-bottom:1px solid white;}
+.topctext{margin-top:16px;}						 
+.topctext h1{
+	font-size:36px;
+	color: #132445;
+	width:600px;
+	text-align:left;
+	font-weight:normal;
+}						 
+.tlogo{margin-top:-81px;margin-bottom:6px;}						 
+.tlogo img{}						 
+.middle_content{margin-top:28px;margin-bottom:10px;}						 
+.BH1,.BH2,.BH3,.BH4{
+	width:220px;
+	background:white;
+	margin-right:25px;
+	border-radius:4px;
+	
+}
+.BH1 img{margin:16px; border:1px solid black;border-spacing:2px;}						 
+.BH2 img{margin:16px; border:1px solid black;border-spacing:2px;}						 
+.BH3 img{margin:16px; border:1px solid black;border-spacing:2px;}						 
+.BH4 img{margin:16px; border:1px solid black;border-spacing:2px;}						 
+.BH1 h2{margin-top:-6px; font-size:20px;color:#132445;}						 
+.BH2 h2{margin-top:-6px; font-size:20px;color:#132445;}						 
+.BH3 h2{margin-top:-6px; font-size:20px;color:#132445;}						 
+.BH4 h2{margin-top:-6px; font-size:20px;color:#132445;}						 
+.BH1 p{margin-top:23px; font-size:13px;color:#545668;text-align:left;margin-left:22px;margin-right:30px;
+line-height:18px;margin-bottom:10px;}
+.BH2 p{margin-top:23px; font-size:13px;color:#545668;text-align:left;margin-left:22px;margin-right:30px;
+line-height:18px;margin-bottom:10px;}
+.BH3 p{margin-top:23px; font-size:13px;color:#545668;text-align:left;margin-left:22px;margin-right:30px;
+line-height:18px;margin-bottom:10px;}
+.BH4 p{margin-top:23px; font-size:13px;color:#545668;text-align:left;margin-left:22px;margin-right:30px;
+ line-height:18px;margin-bottom:10px;}
+.BH1 a{font-size:13px;text-decoration:none;margin-right:58px;margin-top:10px;margin-bottom:7px;}						 
+.BH2 a{font-size:13px;text-decoration:none;margin-right:58px;margin-top:10px;margin-bottom:7px;}						 
+.BH3 a{font-size:13px;text-decoration:none;margin-right:58px;margin-top:10px;margin-bottom:7px;}						 
+.BH4 a{font-size:13px;text-decoration:none;margin-right:58px;margin-top:10px;margin-bottom:7px;}						 
+.BH2{}						 
+.BH3{}						 
+.BH4 {
+  margin-left: 1px;
+  margin-right: -33px;
+}					 
+.bottom_content{margin-top:10px;margin-bottom:20px;}						 
+.content_left{width:470px;margin-top:24px;}						 
+.TH1{
+	width:216px;
+}
+.TH1 img{float:left;}						 
+.TH2 img{float:left;margin-left:31px;margin-bottom:6px;}	
+.TH3 img{float:left;}
+.TH4 img{float:left;margin-left:31px;margin-bottom:6px;}						 
+						 
+					 
+.TH1 h3{float:left;font-size:15px;margin: 13px 44px 27px 9px ;color:#132445;}						 
+.TH2 h3{float:right;font-size:15px;margin: 12px 75px 23px -8px;color:#132445;}
+.TH3 h3{float:left;font-size:15px;margin: 13px 44px 27px 9px ;color:#132445;}
+.TH4 h3{float:right;font-size:15px;margin: 12px 88px 23px -8px;color:#132445;}						 
+						 
+.TH1 p{text-align:left;color:#132445; font-size:13px;line-height:18px;margin:2px;}					 
+.TH2 p{text-align:left;color:#132445; font-size:13px;line-height:18px;margin-left:31px;}	
+.TH3 p{text-align:left;color:#132445; font-size:13px;line-height:18px;margin:2px;}
+.TH4 p{text-align:left;color:#132445; font-size:13px;line-height:18px;margin-left:31px;margin-top:54px;}					 
+					 
+.TH2{width:254px;float:right;margin-top:-129px;}						 
+.TH3{
+	width:216px;margin-top:26px;
+}						 
+.TH4{width:254px;float:right;margin-top:-129px;}						 
+.content_right{ margin-top: -280px;
+    width: 486px}
+.content_right h3{font-size:15px;color:#132445;margin:0px 285px 21px -17px;}
+.content_right p{font-size:13px;color:#132445;margin:26px 26px; text-align:left;line-height:28px;margin-bottom:6px;}
+.content_right a{margin-left:-356px;font-size:13px;}
+                   /*----------------------------------------------
+						      // Footer Code 
+						 --------------------------------------------*/ 						 
+.Footer_part{background:url(images/footerbg.png) 0 0 scroll repeat-x;}
+.mainfooter{
+	width:956px;
+	margin: 0 auto;
+	
+}						 
+.Footer_left{}						 
+.menu1{margin-top:22px;margin-left:-8px;height:16px;}						 
+.menu1 ul{text-align:left;display:inline;}						 
+.menu1 ul li{display:inline-block; border-right:1px solid #DADFEB;}						 
+.menu1 ul li:last-child{border-right:none;}						 
+.menu1 ul li a{font-size:13px;padding:10px 10px;text-decoration:none;color:#DADFEB;}						 
+.menu1 ul li a :hover{}						 
+.text{}						 
+.text p{font-size:13px;text-align:left;color:#8E97AE;margin-top:18px;}						 
+.text a{color:#8E97AE;text-decoration:none;}						 
+.text a:hover{color:white;text-decoration:underline;}						 
+.Footer_right{}						 
+.social_bookmarks{margin-top:25px;}						 
+.social_bookmarks p{float:left;font-size:16px;margin:8px 11px;color:white;font-weight:normal;}						 
+.social_bookmarks img{float:left;margin-left:10px;}						 
+                       
+		 
+	 
